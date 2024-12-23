@@ -1,0 +1,53 @@
+div {
+    width: 300px;
+    height: 400px;
+    margin: 10px
+}
+
+#div1 {
+    background-color: #03045e;
+    border-width: 2px;
+    border-color: antiquewhite;
+    border-style: dashed;
+
+}
+
+#div2 {
+    background-color: #023e8a;
+    border-color: #ccd5ae;
+    border-width: 5px;
+    border-style: solid;
+    border-left-width: 10px;
+
+}
+
+#div3 {
+
+    background-color: 0077b6;
+    border: 10px solid black;
+    border-left-style: dotted;
+    border-radius: 10%;
+
+}
+
+button {
+    background-color: yellow;
+    color: white;
+
+    padding: 10px 20px 30px 40px;
+
+}
+
+section {
+    width: 500px;
+    height: 600px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 0, 255, 0.5);
+    opacity: 0.7;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms demo</title>
+</head>
+
+<body>
+    <h1>Forms demo</h1>
+    <form action="/hi">
+        <p>
+            <label for="username">Enter a user name</label>
+            <input id="username" type="text" placeholder="type user name" name="username">
+        </p>
+        <label for="password"> Password</label>
+        <input id="password" type="password" placeholder="type password" name="password">
+        <label for="color">enter color</label>
+        <input id="color" type="color" name="color">
+        <label for="nrumbe"> enter number</label>
+        <input id="number " type="number" name="number">
+        <p><button>submit</button></p>
+    </form>
+    <!-- outside form -->
+    <p><button>submit</button></p>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>google</button>
+    </form>
+    <h2>more inputs</h2>
+    <form action="/birds">
+        <label for="agree">i agree</label>
+        <input id="agree" type="checkbox" name="agree_toe">
+    </form>
+    <h2>raido button</h2>
+    <p>choose age</p>
+    <p>
+        <label for="10">10</label>
+        <input type="radio" name="age" id="10" value="10">
+        <label for="12">12</label>
+        <input type="radio" name="age" id="12" value="12">
+        <label for="13">13</label>
+        <input type="radio" name="age" id="13" value="13">
+
+        <button type="submit">submit
+        </button>
+
+    </p>
+
+    <form action="/secect button">
+    </form>
+    <select name="" id="" value=""></select>
+
+    <h2>validation form</h2>
+
+    <form action="hi">
+        <label for="username"> name</label>
+        <input type="text" id="usernmae" required>
+        <button>submit</button>
+
+    </form>
+
+</body>
+
+</html>
