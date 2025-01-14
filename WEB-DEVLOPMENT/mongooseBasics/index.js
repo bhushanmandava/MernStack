@@ -15,12 +15,12 @@ const movieSchema = new mongoose.Schema({
     rating: String
 })
 const Movie = mongoose.model('Movie', movieSchema);
-const rrr = new Movie({
-    title: 'rrr',
-    year: 1986,
-    score: 9.2,
-    rating: "ok"
-})
+// const rrr = new Movie({
+//     title: 'rrr',
+//     year: 1986,
+//     score: 9.2,
+//     rating: "ok"
+// })
 Movie.insertMany([
     { title: 'Movie A', year: 1985, score: 8.7, rating: 'PG' },
     { title: 'Movie B', year: 1990, score: 9.1, rating: 'R' },

@@ -35,3 +35,5 @@ bike.save()
     .catch(err => {
         console.log(err);
     })
+
+productSchema.methods.greet = function ()
