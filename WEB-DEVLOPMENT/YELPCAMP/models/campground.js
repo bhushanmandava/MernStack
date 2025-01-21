@@ -1,10 +1,18 @@
 const mongoose = require('mongoose');
-const { title } = require('process');
+const Review = require('./reviews')
+
 const Schema = mongoose.Schema;
+
 const CampgroundSchema = new Schema({
     title: String,
-    price: String,
+    image: String,
+    price: Number,
     description: String,
-    location: String
-})
-module.exports = mongoose.model('Campground', CampgroundSchema)
+    location: String,
+    reviews: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Review'
+    }]
+});
+
+module.exports = mongoose.model('Campground', CampgroundSchema);
